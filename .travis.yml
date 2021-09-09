@@ -3,6 +3,7 @@ jdk: openjdk11
 
 cache:
   directories:
+    - $HOME/.gradle/caches/jars-9/
     - $HOME/.gradle/wrapper/dists/
     - .gradle/configuration-cache/
 
