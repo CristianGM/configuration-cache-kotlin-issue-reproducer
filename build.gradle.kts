@@ -9,13 +9,3 @@ group "com.cristiangm"
 repositories {
     mavenCentral()
 }
-
-java {
-    toolchain {
-        languageVersion.set(JavaLanguageVersion.of(11))
-    }
-}
-
-kotlin {
-    jvmToolchain {}
-}
