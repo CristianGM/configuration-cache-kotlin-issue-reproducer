@@ -1,0 +1,12 @@
+language: java
+jdk: openjdk11
+
+cache:
+  directories:
+    - $HOME/.gradle/caches/modules-2/
+    - $HOME/.gradle/wrapper/dists/
+    - .gradle/configuration-cache/
+
+install: skip
+script:
+  - ./gradlew check
